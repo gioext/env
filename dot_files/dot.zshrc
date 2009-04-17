@@ -1,6 +1,7 @@
 # Created by newuser for 4.3.2
 export PATH=/opt/local/bin:/opt/local/sbin/:/usr/local/bin:$PATH
 export LANG=ja_JP.UTF-8
+export EDITOR=vim
 alias ls='ls -Gv'
 alias df='df -k'
 alias edit='open -a CotEditor'
@@ -37,12 +38,8 @@ setopt list_packed
 setopt print_eight_bit
 # no beep
 setopt no_beep
-# ls color
 ## terminal configuration
-#
 unset LSCOLORS
-# set terminal title including current directory
-#
 case "${TERM}" in
 rxvt*|kterm*|xterm*|screen)
   precmd() {
