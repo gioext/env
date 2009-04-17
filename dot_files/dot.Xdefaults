@@ -1,12 +1,12 @@
 URxvt*background: Black
 URxvt*foreground: snow
 URxvt*scrollBar: off
-
 URxvt*geometry: 110x37
 URxvt*termName: rxvt
-
+Urxvt*transparent: true
 Urxvt*inheritPixmap: true
 Urxvt*shading: 20
+Urxvt*preeditType: root
 
 URxvt.font:\
         xft:Monaco:size=11:antialias=true,\
