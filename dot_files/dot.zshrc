@@ -3,6 +3,7 @@ export PATH=/opt/local/bin:/opt/local/sbin/:/usr/local/bin:$PATH
 export LANG=ja_JP.UTF-8
 export EDITOR=vim
 alias ls='ls -Gv'
+alias ll='ls -l'
 alias df='df -k'
 alias edit='open -a CotEditor'
 # autoload
