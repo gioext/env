@@ -4,6 +4,7 @@ export LANG=ja_JP.UTF-8
 export EDITOR=vim
 alias ls='ls -Gv'
 alias ll='ls -l'
+alias la='ls -al'
 alias df='df -k'
 alias edit='open -a CotEditor'
 # autoload
