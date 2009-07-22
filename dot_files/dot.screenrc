@@ -1,8 +1,8 @@
-defencoding utf8
 escape ^z^z
-startup_message off
-hardstatus alwayslastline %w
-defbce "on"
-term rxvt
-termcapinfo rxvt 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
-altscreen on
+#vbell off
+defencoding UTF-8
+autodetach on
+hardstatus alwayslastline "%{= wr}%H[-]: %{= .b}%-Lw%{= bw}%50>%n%f* %t%{-}%+Lw%<  %= %{= .k}%m/%d %c"
+caption splitonly "%{= wk}%?%F%{= bw}%? %2n %t"
+termcapinfo xterm* ti@:te@
+defscrollback 4000

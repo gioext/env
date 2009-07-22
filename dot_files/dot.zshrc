@@ -7,6 +7,7 @@ alias ll='ls -l'
 alias la='ls -al'
 alias df='df -k'
 alias edit='open -a CotEditor'
+alias sinatra='/Users/kazuki/Documents/sinatra-project/sinatra.rb'
 # autoload
 autoload -U compinit
 compinit -u

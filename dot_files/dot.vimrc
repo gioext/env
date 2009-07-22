@@ -1,11 +1,11 @@
 "共通
 set nocompatible
-colorscheme mydesert
+colorscheme desert
 syntax on
 filetype on
 filetype indent on
 filetype plugin on
-set t_Co=256
+"set t_Co=256
 set enc=utf-8
 set fenc=utf-8
 set fencs=utf-8,euc-jp,sjis,ucs-2,cp932,iso2022-jp
