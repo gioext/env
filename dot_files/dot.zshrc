@@ -1,11 +1,7 @@
 # Created by newuser for 4.3.2
-export PATH=/Users/kazuki/go/bin:/opt/local/bin:/opt/local/sbin/:/usr/local/bin:$PATH
+export PATH=/Users/kazuki/perl5/perlbrew/bin:/opt/local/bin:$PATH
 export LANG=ja_JP.UTF-8
 export EDITOR=vim
-export GOROOT=/Users/kazuki/go
-export GOOS=darwin
-export GOARCH=386
-export GOBIN=$GOROOT/bin
 alias ls='ls -Gv'
 alias ll='ls -l'
 alias la='ls -al'

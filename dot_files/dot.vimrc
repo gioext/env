@@ -71,8 +71,9 @@ au BufNewFile,BufRead *.rb  set nowrap tabstop=2 shiftwidth=2
 au BufNewFile,BufRead Rakefile  set nowrap tabstop=2 shiftwidth=2
 au BufNewFile,BufRead *.cc  set nowrap tabstop=2 shiftwidth=2
 au BufNewFile,BufRead *.h  set nowrap tabstop=2 shiftwidth=2
+au BufNewFile,BufRead *.py  set nowrap tabstop=2 shiftwidth=2
 "全角スペースを視覚化
-highlight ZenkakuSpace ctermbg=240 guibg=240
+highlight ZenkakuSpace ctermbg=200 guibg=200
 au BufNewFile,BufRead * match ZenkakuSpace /　/
 "Migemo
 if has('migemo')
