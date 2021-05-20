@@ -1,7 +1,7 @@
 # Created by newuser for 4.3.2
 export LANG=ja_JP.UTF-8
 export EDITOR=vim
-alias ls='ls -Gv'
+alias ls='ls -v --color=always'
 alias ll='ls -al'
 alias la='ls -al'
 alias df='df -k'
