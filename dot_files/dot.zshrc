@@ -1,14 +1,10 @@
 # Created by newuser for 4.3.2
-export PATH=/Users/kazuki/perl5/perlbrew/bin:/opt/local/bin:$PATH
 export LANG=ja_JP.UTF-8
 export EDITOR=vim
 alias ls='ls -Gv'
-alias ll='ls -l'
+alias ll='ls -al'
 alias la='ls -al'
 alias df='df -k'
-alias edit='open -a CotEditor'
-alias sinatra='/Users/kazuki/Documents/sinatra-project/sinatra.rb'
-alias re='/opt/ruby-enterprise-1.8.7-20090928/bin/ruby'
 # autoload
 autoload -U compinit
 compinit -u
@@ -59,11 +55,6 @@ esac
 setopt noautoremoveslash
 # 大文字小文字
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
-# zed
-autoload zed
-# alias -s
-alias -s txt=cat
-alias -s log=cat
 # alias -g
 alias -g L='| lv -c'
 alias -g H='| head'
