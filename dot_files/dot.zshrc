@@ -1,9 +1,7 @@
-# Created by newuser for 4.3.2
 export LANG=ja_JP.UTF-8
 export EDITOR=vim
-alias ls='ls -v --color=always'
+alias ls='ls -Gv'
 alias ll='ls -al'
-alias la='ls -al'
 alias df='df -k'
 # autoload
 autoload -U compinit
@@ -55,11 +53,3 @@ esac
 setopt noautoremoveslash
 # 大文字小文字
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
-# alias -g
-alias -g L='| lv -c'
-alias -g H='| head'
-alias -g T='| tail'
-alias -g G='| grep'
-alias -g W='| wc'
-alias -g S='| sed'
-alias -g A='| awk'
