@@ -1,6 +1,5 @@
 "共通
 set nocompatible
-colorscheme desert
 syntax on
 filetype on
 filetype indent on
@@ -73,14 +72,12 @@ au BufNewFile,BufRead *.cc  set nowrap tabstop=2 shiftwidth=2
 au BufNewFile,BufRead *.h  set nowrap tabstop=2 shiftwidth=2
 au BufNewFile,BufRead *.py  set nowrap tabstop=2 shiftwidth=2
 au BufNewFile,BufRead *.php  set nowrap tabstop=4 shiftwidth=4
-au BufNewFile,BufRead *.py  set nowrap tabstop=2 shiftwidth=2
+au BufNewFile,BufRead *.py  set nowrap tabstop=4 shiftwidth=4
 au BufNewFile,BufRead *.html  set nowrap tabstop=2 shiftwidth=2
 au BufNewFile,BufRead *.css  set nowrap tabstop=2 shiftwidth=2
 au BufNewFile,BufRead *.jsx  set nowrap tabstop=2 shiftwidth=2
 au BufNewFile,BufRead *.js  set nowrap tabstop=2 shiftwidth=2
 "全角スペースを視覚化
-highlight ZenkakuSpace ctermbg=200 guibg=200
-au BufNewFile,BufRead * match ZenkakuSpace /　/
 imap <C-Space> <C-x><C-o>
 nmap <Space> :bn<CR>
 "miniBuf
